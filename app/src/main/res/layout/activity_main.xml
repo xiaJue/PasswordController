@@ -41,6 +41,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
+            android:gravity="center"
             android:hint="@string/length"
             android:inputType="number"
             android:text="10"/>
@@ -53,8 +54,8 @@
             android:layout_centerInParent="true"
             android:background="@drawable/button_bg"
             android:onClick="getPass"
-            android:textColor="@color/title"
-            android:text="@string/get_pass"/>
+            android:text="@string/get_pass"
+            android:textColor="@color/title"/>
 
         <TextView
             android:id="@+id/remand_tv"
