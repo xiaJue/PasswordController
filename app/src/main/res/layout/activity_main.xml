@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolbar"
+        app:popupTheme="@style/OverflowMenuStyle">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/main_title"
+            android:textColor="@color/title"
+            android:textSize="15sp"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:text="@string/remand_text"
+            android:textSize="10sp"/>
+
+        <EditText
+            android:id="@+id/length_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:hint="@string/length"
+            android:inputType="number"
+            android:text="10"/>
+
+        <Button
+            android:id="@+id/get_but"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/length_et"
+            android:layout_centerInParent="true"
+            android:background="@drawable/button_bg"
+            android:onClick="getPass"
+            android:textColor="@color/title"
+            android:text="@string/get_pass"/>
+
+        <TextView
+            android:id="@+id/remand_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/get_but"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:text="@string/click_get_pass"
+            android:textSize="10sp"/>
+
+    </RelativeLayout>
+</LinearLayout>

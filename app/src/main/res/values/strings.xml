@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">PasswordController</string>
+    <string name="click_get_pass">点击获得密码</string>
+    <string name="get_pass">获取密码</string>
+    <string name="cant_get_pass">无法获得密码了。请</string>
+    <string name="cant_end">天后再次获得密码</string>
+    <string name="internet_error">检测时间失败,请检查网络重试</string>
+    <string name="reget_text">已将上次密码复制到剪切板</string>
+    <string name="create_pass_success">生成密码完成，内容已复制到剪切板</string>
+    <string name="get_new_pass">获取新密码</string>
+    <string name="pass_remand">本次密码已复制到剪切板,请勿被其他应用覆盖。并在使用旧密码后点击获取新密码</string>
+    <string name="length_error">长度有问题</string>
+    <string name="ddd">太短</string>
+    <string name="pass_ing">密码保护中...</string>
+    <string name="day_get">天后可获取</string>
+    <string name="pass_remand_in">密码已获取。可获取时间剩余:(s) </string>
+    <string name="can_get_pass">当前可获取密码!</string>
+    <string name="settings">设置</string>
+    <string name="remand_text">如果应用被清除数据或卸载等会造成密码丢失并无法找回。请谨慎!</string>
+    <string name="length">长度</string>
+    <string name="save">保存</string>
+    <string name="_6">6个月</string>
+    <string name="_1">1个月</string>
+    <string name="_2">2个月</string>
+    <string name="_3">3个月</string>
+    <string name="_5">5个月</string>
+    <string name="change_text">注:修改设置只对下一次获取密码生效</string>
+    <string name="get_mm_info">获取周期(31/月)</string>
+    <string name="main_title">密码管理</string>
+</resources>
